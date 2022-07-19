@@ -1,15 +1,17 @@
-import javax.swing.text.AttributeSet.ColorAttribute;
+import java.awt.Color;
+
+
 
 public class Triangle {
     
         Vertex v1;
         Vertex v2;
         Vertex v3;
-        ColorAttribute color;
-        Triangle(Vertex v1, Vertex v2, Vertex v3, ColorAttribute color) {
+        Color color;
+        Triangle(Vertex v1, Vertex v2, Vertex v3, Color white) {
             this.v1 = v1;
             this.v2 = v2;
             this.v3 = v3;
-            this.color = color;
+            this.color = white;
         }
 }
