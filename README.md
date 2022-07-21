@@ -1,5 +1,7 @@
 #Information
-My explanation:
+Link of site which turorial I followed 
+http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html?m=1
+Explanation:
 Any rotation in 3D space can be expressed as combination of 3 primitive rotations: rotation in XY plane, rotation in YZ plane and rotation in XZ plane. We can write out transformation matrices for each of those rotations as follows:
 XY rotation matrix:
 
